@@ -22,10 +22,30 @@
   </head>
 
   <body>
+    <nav class="top-bar">
+  <ul class="title-area">
+    <li class="name">
+      <h1><%= link_to "Awesome Store", products_path %></a></h1>
+    </li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li class="divider"></li>
+      <li><%= link_to "Browse Products", products_path %></li>
+      <li class="divider"></li>
+      <li><%= link_to "Price List" %></li>
+      <li class="divider"></li>
+      <li><%= link_to "Contact Us" %></li>
+      <li class="divider"></li>
+      <li><%= link_to "Cart" %></li>
+    </ul>
+  </section>
+</nav>
+
     <div class="row">
       <div class="large-8 columns"><%= yield %></div>
       <div class="large-4 columns">
-        <h2>About Us</h2>
+        <h2 class="subheader">About Us</h2>
         90's non gentrify, Pinterest qui photo booth semiotics before they sold out adipisicing mollit Tumblr. Cardigan kitsch post-ironic cred. Godard locavore post-ironic, blog nostrud Shoreditch freegan. Biodiesel in vero, Blue Bottle minim skateboard pug sed. Blog meggings raw denim Odd Future Schlitz, Echo Park ad non Wes Anderson quis DIY organic cray semiotics put a bird on it. Selfies incididunt Shoreditch, officia cillum kogi meggings duis paleo fashion axe next level tousled. Single-origin coffee excepteur odio vero twee irure.
 
       </div>
