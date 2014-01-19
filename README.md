@@ -7,8 +7,6 @@
 
 By [Kayla Morrison](http://github.com/kaxla).
 
-[![Code Climate](Code Climate Badge IMG URL goes here)](Code Climate URL goes here)
-
 ## Description
 **Simple Rails Storee** A simple store setup built using Ruby on Rails with Zurb Foundation. Based on Railscast #417
 
@@ -26,4 +24,4 @@ Screenshot of Add Product Page
 
 * Kayla Morrison (http://github.com/kaxla) using Railscast #417
 * Made with the help of Railscast #417 (http://railscasts.com/episodes/417-foundation?autoplay=true)
-* README template designed by Stephanie Hekker ()
+* README template designed by Stephanie Hekker (https://github.com/stephzilla)
